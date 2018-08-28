@@ -7,5 +7,22 @@ git log
 git clone url .
 git pull origin master
 git push origin master
+
+
+
+----
+git branch branch-name // create brach
+git checkout branch-name // go to the named branch
+
+git add -A            // add to staged 
+git commit -m "initial commit"  // commit in local branch
+
+git push -u origin first  // create a remote first branch as same as local first branch
+
+-----
+
+
+git branch -a // show all branches in remote and local 
+
+ 
 git remote -v
-git branch -a
