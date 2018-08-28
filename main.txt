@@ -1,0 +1,9 @@
+git init 
+git status
+git add -A
+git commit -m "initial commit"
+git status
+git log
+git clone url .
+git remote -v
+git branch -a
