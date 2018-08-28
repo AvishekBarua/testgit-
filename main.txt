@@ -21,8 +21,18 @@ git push -u origin first  // create a remote first branch as same as local first
 
 -----
 
-
 git branch -a // show all branches in remote and local 
 
- 
+--------------
+
+git checkout master    // jump to master
+git pull origin master        // bring master to local to check if changes happen in remote master
+git merge first         // merge first with master branch locally 
+git push origin master   // update master branch to update the change
+
+-----------------------
+
+git branch --merged 
+
+
 git remote -v
